@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vikram's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Vikram</span>
+                <div>I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="developer.png" alt="img1">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+           <div class="box">
+             <div class="vertical">
+                <img class="image-top"src="C++_logo.png" alt="img2">
+                <div class="vertical-title">
+                   C++ Developer
+                   <span>(2021-2022)</span>
+                </div>
+               <div class="vertical-desc">
+                Designed, developed, and implemented software solutions using C++.Developed new features and improved existing ones in software applications.
+                Identified and fixed bugs and issues in the software.Performed code reviews to ensure code quality and adherence to standards.
+               </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top"src="htmllogo.png" alt="img2">
+                <div class="vertical-title">
+                    HTML Developer
+                    <span>(2022-2023)</span>
+                </div>
+               <div class="vertical-desc">
+                Used HTML to create the basic structure and content of web pages, including text, images, links, forms, and other multimedia elements.
+                Wrote semantic HTML to improve accessibility and search engine optimization (SEO).
+                Optimized HTML and CSS for performance, ensuring fast loading times and efficient use of resources.
+               </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top"src="csslogo.png" alt="img2">
+                <div class="vertical-title">
+                   CSS and Bootstrap Developer
+                   <span>(2022-2023)</span>
+                </div>
+               <div class="vertical-desc">
+               Used CSS to apply styles to web pages, such as fonts, colors, layouts, and animations.
+               Implemented responsive design techniques to ensure that web pages look and function well on a variety of devices and screen sizes.
+	           Utilized CSS frameworks like Bootstrap, Foundation, or Tailwind CSS to streamline the development process and maintain consistency.
+             </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top"src="jslogo.webp" alt="img2">
+                <div class="vertical-title">
+                    Javascript Developer
+                    <span>(2023-2024)</span>
+                </div>
+               <div class="vertical-desc">
+                Created interactive and dynamic web pages using JavaScript, enhancing the user experience with animations, form validations, and real-time updates.
+                Optimized JavaScript code for performance, ensuring fast load times and smooth interactions.
+	            Followed best practices for coding standards, code organization, and design patterns.
+               </div>
+             </div>
+             <div class="vertical">
+                <img class="image-top"src="reactlogo.png" alt="img2">
+                <div class="vertical-title">
+                    React js Developer
+                    <span>(2024-present)</span>
+                </div>
+               <div class="vertical-desc">
+                Utilized front-end frameworks and libraries like React, Angular, or Vue.js to build complex user interfaces efficiently.
+                Manipulated the Document Object Model (DOM) to update the user interface in response to user actions or data changes.
+
+             </div>
+           </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Vikram Developer Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Overview</li>
+                        <li>Blogs</li>
+                        <li>Press</li>
+                        <li>Chat</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Documentation</li>
+                        <li>Solutions</li>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; www.vikramportfolio.com | All rights reserved
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["Web Developer","Graphic Designer","Web Designer","Video Editor","Content Writer"],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
